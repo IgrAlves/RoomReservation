@@ -123,10 +123,18 @@ Para mais informações ou dúvidas, entre em contato através do e-mail: trabal
 
 
 ## Regras para o desenvolvimento 
-atualize sempre a branch develop nunca a main 
+Atualize sempre a branch develop nunca a main 
 sempre que for mexer no projeto inicie a venv e se precisar instalar alguma lib depois de instalada atualize o requeriments.txt
 com o comando: 
 
 ```bash
  pip freeze > requeriments.txt
 ```
+
+## Dicas/Obs
+- Antes de iniciar, sincronize seu fork com o repositório original para garantir que você está trabalhando com a versão mais recente.
+- Siga o padrão de commits para manter um histórico de mudanças organizado e fácil de entender.
+- Descreva claramente as mudanças realizadas no Pull Request
+- Sempre verifique se a branch develop está atualizada.
+- Siga os padrões de codificação estabelecidos para o projeto, como convenções de nomenclatura, estrutura de arquivos, e formatação.
+- Certifique-se de que seu ambiente local esteja configurado corretamente antes de iniciar o desenvolvimento. Isso inclui a instalação correta de dependências e a criação de bancos de dados locais.
